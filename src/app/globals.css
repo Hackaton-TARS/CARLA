@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -25,23 +27,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 
-    --chart-surface: #1a1a19;
-    --chart-text-secondary: #c3c2b7;
-    --chart-gridline: #2c2c2a;
-    --chart-series-1: #3987e5;
-    --chart-series-2: #d95926;
-    --chart-status-good: #0ca30c;
+  --chart-surface: #1a1a19;
+  --chart-text-secondary: #c3c2b7;
+  --chart-gridline: #2c2c2a;
+  --chart-series-1: #3987e5;
+  --chart-series-2: #d95926;
+  --chart-status-good: #0ca30c;
 
-    --map-stroke: #2c2c2a;
-    --map-marker: #3987e5;
-    --map-surface: #1a1a19;
-    --map-flat-fill: #ffffff;
-  }
+  --map-stroke: #2c2c2a;
+  --map-marker: #3987e5;
+  --map-surface: #1a1a19;
+  --map-flat-fill: #ffffff;
 }
 
 body {

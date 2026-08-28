@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { BrazilMap } from "@/components/mapa/BrazilMap"
+import { BrazilMap } from "@/components/mapa/BrazilMapClient"
 import { DatacenterInfoPanel } from "@/components/mapa/DatacenterInfoPanel"
 import { DatacenterRankingList } from "@/components/mapa/DatacenterRankingList"
 import { MonthSlider } from "@/components/mapa/MonthSlider"

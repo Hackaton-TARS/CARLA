@@ -160,7 +160,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">
           A CARLA resolve isso: monitora, otimiza e transforma economia em crédito de carbono.
         </h2>
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2">
           {paths.map((path) => (
             <Link
               key={path.href}

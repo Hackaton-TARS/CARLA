@@ -1,7 +1,8 @@
 "use client"
 
 import { useMemo, useState } from "react"
-import { BrazilMap, type SelectedState } from "@/components/mapa/BrazilMap"
+import { BrazilMap } from "@/components/mapa/BrazilMapClient"
+import type { SelectedState } from "@/components/mapa/BrazilMap"
 import { MapLegend } from "@/components/mapa/MapLegend"
 import { MonthSlider } from "@/components/mapa/MonthSlider"
 import { RegionDetailPanel } from "@/components/mapa/RegionDetailPanel"
