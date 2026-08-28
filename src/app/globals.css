@@ -3,6 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* dataviz tokens — references/palette.md */
+  --chart-surface: #fcfcfb;
+  --chart-text-secondary: #52514e;
+  --chart-gridline: #e1e0d9;
+  --chart-series-1: #2a78d6;
+  --chart-series-2: #eb6834;
+  --chart-status-good: #0ca30c;
+
+  --map-stroke: #e1e0d9;
+  --map-marker: #2a78d6;
+  --map-surface: #fcfcfb;
+  --map-flat-fill: #ffffff;
 }
 
 @theme inline {
@@ -16,6 +29,18 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --chart-surface: #1a1a19;
+    --chart-text-secondary: #c3c2b7;
+    --chart-gridline: #2c2c2a;
+    --chart-series-1: #3987e5;
+    --chart-series-2: #d95926;
+    --chart-status-good: #0ca30c;
+
+    --map-stroke: #2c2c2a;
+    --map-marker: #3987e5;
+    --map-surface: #1a1a19;
+    --map-flat-fill: #ffffff;
   }
 }
 
